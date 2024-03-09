@@ -1,0 +1,17 @@
+{
+  "name": "nihad-todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}

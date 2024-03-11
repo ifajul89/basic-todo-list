@@ -1,36 +1,37 @@
 @import url(https://fonts.bunny.net/css?family=abeezee:400,400i);
 
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'ABeeZee', sans-serif;
+    font-family: "ABeeZee", sans-serif;
 }
 
-body{
+body {
     width: 50%;
     margin: auto;
 }
 
-.header-section{
+.header-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 10px 0px;
 }
 
-.id-box-container{
+.id-box-container {
     display: flex;
     justify-content: center;
     width: 100%;
     margin: 10px 0px 15px;
 }
 
-.line{
+.line {
     color: gray;
     background-color: gray;
+    margin: 15px 25px;
 }
 
-.id-box{
+.id-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,23 +42,23 @@ body{
     border-radius: 20px;
 }
 
-.logo{
+.logo {
     font-size: 30px;
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
 
-.profile-pic{
+.profile-pic {
     width: 50px;
     border-radius: 50%;
 }
 
-.profile-name{
+.profile-name {
     font-size: 30px;
 }
 
-.task-add-button{
+.task-add-button {
     font-size: 30px;
     padding: 8px 17px;
     border-radius: 50%;
@@ -66,12 +67,12 @@ body{
     color: white;
 }
 
-.task-add-button:hover{
+.task-add-button:hover {
     background-color: rgb(48, 48, 48);
     transition: 0.3s;
 }
 
-.task-input{
+.task-input {
     width: 100%;
     border-radius: 50px;
     font-size: 20px;
@@ -80,7 +81,7 @@ body{
     outline: none;
 }
 
-.task-form{
+.task-form {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -88,4 +89,42 @@ body{
     border: 2px solid gray;
     padding: 5px;
     border-radius: 50px;
+}
+
+.icon-button {
+    border-radius: 50%;
+    border: 0;
+    background-color: gray;
+    color: white;
+}
+
+.icon-button:hover {
+    background-color: rgb(48, 48, 48);
+    transition: 0.3s;
+}
+
+.button-icon {
+    width: 20px;
+    margin: 5px 6px;
+}
+
+.task-name {
+    font-size: 25px;
+}
+
+.task-card {
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.task-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-description{
+    color: rgb(68, 68, 68);
+    margin-top: 10px;
 }

@@ -1,13 +1,33 @@
+@import url(https://fonts.bunny.net/css?family=abeezee:400,400i);
+
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+body{
+    width: 50%;
+    margin: auto;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
 }
 
 .id-box-container{
     display: flex;
-    width: 100%;
     justify-content: center;
+    width: 100%;
+    margin: 10px 0px 15px;
+}
+
+.line{
+    color: gray;
+    background-color: gray;
 }
 
 .id-box{
@@ -21,9 +41,15 @@
     border-radius: 20px;
 }
 
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
 .profile-pic{
-    width: 100px;
+    width: 50px;
     border-radius: 50%;
 }
 
@@ -43,4 +69,23 @@
 .task-add-button:hover{
     background-color: rgb(48, 48, 48);
     transition: 0.3s;
+}
+
+.task-input{
+    width: 100%;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border: 0;
+    outline: none;
+}
+
+.task-form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 50px;
 }
